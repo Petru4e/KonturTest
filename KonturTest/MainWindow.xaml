@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KonturTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="600">
-    <Grid Margin="0,0,0,0">
-        <Button Click="Button_Click" HorizontalAlignment="Center" Margin="0,150,0,0" Height="50" Width="100">
+        Title="KonturTest" Height="300" Width="600"
+        WindowStyle="SingleBorderWindow" Background="#FF221F1F">
+    <Grid Margin="0,0,0,0" Background="#FF534E47">
+        <Button Click="Button_Click" HorizontalAlignment="Center" Margin="0,150,0,0" Height="50" Width="100" FontWeight="Bold" FontSize="16" FontFamily="Arial Unicode MS" BorderBrush="#FF110F0F" Foreground="White" Background="#FF120F0F" Panel.ZIndex="15" >
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform />
@@ -17,9 +18,9 @@
                 </TransformGroup>
             </Button.RenderTransform> Start
         </Button>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="100"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Right" Margin="0,50,50,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="100"/>
-        <Label Content="Список всех group и количество item" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top"/>
-        <Label Content="Элемент list и его количество item" HorizontalAlignment="Right" Margin="0,30,50,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="100" Background="#FF221F1F" Foreground="White" FontFamily="Arial Unicode MS" FontWeight="Bold" />
+        <TextBox x:Name="textBox2" HorizontalAlignment="Right" Margin="0,50,50,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="100" Background="#FF221F1F" Foreground="White" FontFamily="Arial Unicode MS" FontWeight="Bold" />
+        <Label Content="Список всех group и количество item" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontFamily="Arial Unicode MS" FontSize="11"/>
+        <Label Content="Элемент list и его количество item" HorizontalAlignment="Right" Margin="0,30,50,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial Unicode MS" FontWeight="Bold" FontSize="11"/>
     </Grid>
 </Window>
