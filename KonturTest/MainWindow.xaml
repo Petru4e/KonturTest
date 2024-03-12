@@ -21,7 +21,5 @@
         <TextBox x:Name="textBox2" HorizontalAlignment="Right" Margin="0,50,50,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="100"/>
         <Label Content="Список всех group и количество item" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top"/>
         <Label Content="Элемент list и его количество item" HorizontalAlignment="Right" Margin="0,30,50,0" VerticalAlignment="Top"/>
-
-
     </Grid>
 </Window>

@@ -2,10 +2,6 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Xml.Xsl;
 using System.Xml;
 using System.IO;
@@ -34,7 +30,6 @@ namespace KonturTest
             XmlWriter? writer = XmlWriter.Create("Groups.xml", settings);
             xslt.Transform(xmlReadB, null, writer, null);
             writer.Close();
-
 
             XmlDocument? doc2 = new XmlDocument();
             doc2.Load("Groups.xml");
